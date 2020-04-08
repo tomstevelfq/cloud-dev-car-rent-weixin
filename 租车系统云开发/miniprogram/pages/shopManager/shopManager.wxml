@@ -1,0 +1,35 @@
+<!--miniprogram/pages/shopManager/shopManager.wxml-->
+
+<view wx:if="{{nshop}}" class="nshop">请先注册店铺</view>
+
+<view wx:if="{{yshop}}">
+
+<view class="myinfo">
+  <image src="../images/shopback.jpg" class="bgp"></image>
+  <view class="center">商家管理</view>
+
+  <view class="blo">
+    <image class="img" src="{{headimg}}"></image>
+    <view class="nick">{{shopMes.name}}</view>
+  </view>
+
+</view>
+
+<view class="module clear">
+  <view class="usually">常用功能</view>
+    <view class="func" bindtap="carMan">
+      <image class="funImg" src="../images/admi.png"></image>
+      <view class="text">电车管理</view>
+    </view>
+    <view class="func" bindtap="relate">
+      <image class="funImg" src="../images/me.png"></image>
+      <view class="text">与我相关</view>
+    </view>
+    <view class="func" bindtap="bonus">
+      <image class="funImg" src="../images/bonus.png"></image>
+      <view class="text">商家收益</view>
+    </view>
+</view>
+
+
+</view>

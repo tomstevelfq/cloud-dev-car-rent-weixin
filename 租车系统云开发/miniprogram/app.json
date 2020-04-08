@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/mine/mine",
+    "pages/post/post",
+    "pages/mypost/mypost",
+    "pages/rentCar/rentCar",
+    "pages/comment/comment",
+    "pages/uploadCar/uploadCar",
+    "pages/product/product",
+    "pages/shopManager/shopManager",
+    "pages/mycomment/mycomment",
+    "pages/postpage/postpage",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/upMes/upMes",
+    "pages/reShop/reShop",
+    "pages/carManager/carManager",
+    "pages/mypost/postDisplay/postDisplay",
+    "pages/myReply/myReply",
+    "pages/proComment/proComment",
+    "pages/myCollect/myCollect",
+    "pages/relateMe/relate",
+    "pages/bonus/bonus"
+  ],
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/luntan.png",
+        "iconPath": "pages/images/luntan.png",
+        "pagePath": "pages/post/post",
+        "text": "电车论坛"
+      },
+      {
+        "selectedIconPath": "pages/images/car.png",
+        "iconPath": "pages/images/car.png",
+        "pagePath": "pages/rentCar/rentCar",
+        "text": "附近租车"
+      },
+      {
+        "selectedIconPath": "pages/images/center.png",
+        "iconPath": "pages/images/center.png",
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

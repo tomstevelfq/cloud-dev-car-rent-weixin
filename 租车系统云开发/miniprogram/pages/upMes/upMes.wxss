@@ -1,0 +1,25 @@
+/* miniprogram/pages/upMes/upMes.wxss */
+.clear:after{
+  content:'\200B';
+  clear:both;
+  display:block;
+  height:0;
+}
+
+.name{
+  float:left;
+  margin-left:20rpx;
+  margin-right:20rpx;
+}
+
+.inp{
+  float:left;
+}
+
+.con{
+  margin-top: 20rpx;
+}
+
+.btn{
+  background-color: bisque;
+}

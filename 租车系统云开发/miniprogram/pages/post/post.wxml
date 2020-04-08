@@ -1,0 +1,49 @@
+<!--miniprogram/pages/post/post.wxml-->
+
+<view style="background-color:white;">
+	<view class="tags clear">
+		<image class="img" src="../images/post1.png" bindtap="myPost"></image>
+		<image class="img" src="../images/ans.png" bindtap="myReply"></image>
+		<image class="img" src="../images/uploa.png" bindtap="upPost"></image>
+	</view>
+
+	<view class="tags clear">
+		<view class="word">我的贴子</view>
+		<view class="word">我的回复</view>
+		<view class="word">发布帖子</view>
+	</view>
+</view>
+
+<view class="clear">
+	<view class="sum">共{{poLength}}个帖子</view>
+	<!-- <view class="option">
+		<view class="persons">人气优先</view>
+		<view class="order">默认排序</view>
+	</view> -->
+</view>
+
+<view class="content">
+
+
+<view wx:for='{{posts}}' wx:for-index='index' wx:for-item='item'>
+	<view class="post" id="{{index}}" bindtap="_display">
+		<view class="clear">
+			<image class="headimg" src="{{item.headimg}}"></image>
+			<view class="nickTime">
+				<view class="nick">{{item.nickName}}</view>
+				<!-- <view class="time">2小时前</view> -->
+			</view>
+		</view>
+
+		<view class="contentPost">{{item.title}}</view>
+
+		<view class="clear">
+			<view class=" support ">赞数
+				<text style="color:rgba(0, 132, 255, 0.534);margin-left:5rpx;">0</text>
+			</view>
+			<view class="comment">1人回复</view>
+		</view>
+    </view>
+	</view>
+
+</view>

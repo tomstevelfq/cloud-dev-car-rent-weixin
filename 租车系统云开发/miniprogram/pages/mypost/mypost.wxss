@@ -1,0 +1,114 @@
+/* pages/mypost/mypost.wxss */
+page{
+  background-color:  rgb(231, 231, 231);
+}
+
+.headimg{
+  width:80rpx;
+  height:80rpx;
+  float:left;
+}
+
+.contentPost{
+  font-weight: bolder;
+  margin-top:15rpx;
+}
+
+.support{
+  float:left;
+  font-size:20rpx;
+  color:gainsboro;
+  margin-top:20rpx;
+}
+
+.comment{
+  float:right;
+  font-size:20rpx;
+  color:gainsboro;
+  margin-top:20rpx;
+}
+
+.nickTime{
+  float:left;
+}
+
+.nick{
+  color:rgba(0, 132, 255, 0.534);
+  font-size:30rpx;
+  margin-left:10rpx;
+}
+
+.time{
+  font-size:25rpx;
+  color:rgba(128, 128, 128, 0.664);
+  margin-left:10rpx;
+  margin-top:10rpx;
+}
+
+.clear:after{
+  content:'\200B';
+  clear:both;
+  display:block;
+  height:0;
+}
+
+.img{
+  padding-left:1rpx;
+  float:left;
+  width:127rpx;
+  height:127rpx;
+  margin-left:30rpx;
+  margin-right:30rpx;
+}
+
+.word{
+  padding-left:1rpx;
+  float:left;
+  width:127rpx;
+  margin-left:30rpx;
+  margin-right:30rpx;
+  text-align:center;
+  font-size:25rpx;
+  margin-top:7rpx;
+  margin-bottom:20rpx;
+}
+
+.sum{
+  float:left;
+  margin-left:20rpx;
+  margin-top:23rpx;
+}
+
+.option{
+  float:right;
+  margin-right:20rpx;
+  border:1px solid rgba(128, 128, 128, 0.363);
+  margin-top:15rpx;
+  background-color: white;
+  color:white;
+  font-size:25rpx;
+
+}
+
+.option view{
+  display: inline-block;
+  padding:12rpx;
+}
+
+.order{
+  background-color: orange;
+}
+
+.persons{
+  color:black;
+}
+
+.content{
+  padding:0 20rpx;
+}
+
+.post{
+  margin-top:10rpx;
+  background-color: white;
+  padding:10rpx;
+}

@@ -1,0 +1,112 @@
+<!--miniprogram/pages/product/product.wxml-->
+<view class="head clear">
+	<image src="{{shopUser.headimg}}" class="headimg"></image>
+	<view class="shopName">{{shop.name}}</view>
+</view>
+
+<view class="lunbo">
+	<swiper class='u-wrp-bnr' autoplay='true' interval='5000' duration='1000' circular='true' bindchange="swiperChange">
+		<block wx:for="{{imgs}}" wx:for-index="index">
+			<swiper-item>
+				<image src='{{item.fileId}}' class='u-img-slide'></image>
+			</swiper-item>
+		</block>
+	</swiper>
+	<view class="num">{{index}}/{{len}}</view>
+</view>
+<view class="block1"></view>
+<view class="title clear">
+	<image class="titleImg" src="../images/title.png"></image>
+	<view class="titleText">{{product.title}}</view>
+</view>
+
+<view class="col-com clear">
+	<view class="col clear" bindtap="collect">
+		<image class="coImg" src="{{collectimg}}"></image>
+		<view class="coText">收藏 {{colnum}}</view>
+	</view>
+	<view class="com">
+		<image class="coImg" src="../images/comPro.png"></image>
+		<view class="coText">评论 {{comnum}}</view>
+	</view>
+</view>
+
+<view class="serv">
+	<view class="shopserv clear">
+		<view class="servName">商家服务1</view>
+		<view class="servCon">服务1内容</view>
+	</view>
+
+	<view class="shopserv clear">
+		<view class="servName">商家服务2</view>
+		<view class="servCon">服务2内容</view>
+	</view>
+
+	<view class="shopserv clear">
+		<view class="servName">商家服务3</view>
+		<view class="servCon">服务3内容</view>
+	</view>
+
+	<view class="id clear">
+		<view class="servName">编号</view>
+		<view class="servCon">{{product.number}}</view>
+	</view>
+
+	<view wx:if="{{isBuy}}" class="yuding clear">
+		<view class="servName">已预定</view>
+		<image src="../images/ever.png" class="yudingImg"></image>
+	</view>
+
+	<view wx:if="{{canBuy}}" class="yuding clear">
+		<view class="servName">未预定</view>
+		<image src="../images/notever.png" class="yudingImg"></image>
+		<view class="yudingbtn" bindtap="yuding">点击预定</view>
+	</view>
+
+</view>
+
+
+<view class="com-mes">
+	<view class="tags clear">
+		<view class="comTag">评论</view>
+		<view class="mesTag">商家信息</view>
+	</view>
+
+	<view wx:for='{{comments}}' wx:for-index='index' wx:for-item='item'>
+		<view class="comment">
+			<view class="img-name clear">
+				<image class="com-img" src="{{item.headimg}}"></image>
+				<view class="name">{{item.nickName}}</view>
+				<view class="com-time">2019-02-04 17:38</view>
+			</view>
+
+			<view class="com-content">{{item.content}}</view>
+			<view class="com-line"></view>
+		</view>
+
+		<view wx:for='{{item.child}}' wx:for-index='index' wx:for-item='ite'>
+		<view class="child">
+			<view class="cimg-name clear">
+				<image class="com-img" src="{{ite.headimg}}"></image>
+				<view class="name">{{ite.nickName}}</view>
+				<view class="com-time">2019-02-04 17:38</view>
+			</view>
+
+			<view class="ccom-content">卖家回复：{{ite.content}}</view>
+			<view class="com-line"></view>
+		</view>
+	</view>
+
+
+	</view>
+
+	<view class="blo"></view>
+
+</view>
+
+<view class="container">
+	<view class="release">
+		<textarea class="text" placeholder-class="releaseInput" value="{{content}}" fixed="true" maxlength="120" show-confirm-bar="{{false}}" cursor-spacing="15" auto-height="true" focus="{{focus}}" placeholder="评论" value="{{content}}" bindinput="contentInput"></textarea>
+		<view class="submit" bindtap="comment">发布</view>
+	</view>
+</view>

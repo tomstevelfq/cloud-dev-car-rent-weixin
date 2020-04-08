@@ -1,0 +1,78 @@
+<!--miniprogram/pages/postpage/postpage.wxml-->
+<view class="head clear">
+  <image class="headimg" src="../images/headimg.jpg"></image>
+  <view class="nickTime">
+    <view class="nick">我是昵称</view>
+    <view class="time">12-21 12:40</view>
+  </view>
+</view>
+
+<view class="page">
+  <view class="title">我是文章标题</view>
+  <view class="content">发贺卡收到附件返回空哈德开始扩大是否会卡的很客户反馈的身份和凯撒发货肯德基撒发贺卡收到反馈哈卡迪夫贺卡收到反馈和肯定就爱上凤凰看电视咯点卡收费很快就送达客户看扩大身份卡但是</view>
+  <view class="images clear">
+    <image class="imgs" src="../images/headimg.jpg"></image>
+    <image class="imgs" src="../images/headimg.jpg"></image>
+    <image class="imgs" src="../images/headimg.jpg"></image>
+    <image class="imgs" src="../images/headimg.jpg"></image>
+    <image class="imgs" src="../images/headimg.jpg"></image>
+    <image class="imgs" src="../images/headimg.jpg"></image>
+  </view>
+
+  <view class="line"></view>
+
+  <view class="test">
+    <view class="zan clear">
+      <image class="zanimg" src="../images/zan1.png"></image>
+      <view class="num">234</view>
+    </view>
+  </view>
+</view>
+
+<view class="lineblock"></view>
+
+<view class="comment">
+
+  <view class="title">精彩评论(20)</view>
+
+  <view class="com-con clear">
+  <view class="line-in-com"></view>
+    <image class="headimg-com" src="../images/headimg.jpg"></image>
+    <view class="conText">
+      <view class="nickName">用户昵称</view>
+      <view class="comMes">评论内容发士大夫哈卡斯东方航空和为如恶化问哈反馈的空间发货速度放缓开始的是咖啡和凯撒</view>
+      <view class="conTime">12.23 11:04</view>
+    </view>
+  </view>
+
+  <view class="com-con clear">
+  <view class="line-in-com"></view>
+    <image class="headimg-com" src="../images/headimg.jpg"></image>
+    <view class="conText">
+      <view class="nickName">用户昵称</view>
+      <view class="comMes">评论内容发士大夫哈卡斯东方航空和为如恶化问哈反馈的空间发货速度放缓开始的是咖啡和凯撒</view>
+      <view class="conTime">12.23 11:04</view>
+    </view>
+  </view>
+
+  <view class="com-con clear">
+  <view class="line-in-com"></view>
+    <image class="headimg-com" src="../images/headimg.jpg"></image>
+    <view class="conText">
+      <view class="nickName">用户昵称</view>
+      <view class="comMes">评论内容发士大夫哈卡斯东方航空和为如恶化问哈反馈的空间发货速度放缓开始的是咖啡和凯撒</view>
+      <view class="conTime">12.23 11:04</view>
+    </view>
+  </view>
+
+  <view class="com-con clear">
+  <view class="line-in-com"></view>
+    <image class="headimg-com" src="../images/headimg.jpg"></image>
+    <view class="conText">
+      <view class="nickName">用户昵称</view>
+      <view class="comMes">评论内容发士大夫哈卡斯东方航空和为如恶化问哈反馈的空间发货速度放缓开始的是咖啡和凯撒</view>
+      <view class="conTime">12.23 11:04</view>
+    </view>
+  </view>
+
+</view>

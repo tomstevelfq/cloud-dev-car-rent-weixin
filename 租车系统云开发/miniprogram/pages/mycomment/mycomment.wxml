@@ -1,0 +1,41 @@
+<!--miniprogram/pages/mycomment/mycomment.wxml-->
+<view class="mycomment clear">
+<image class="com-img" src="../images/headimg.jpg"></image>
+<view class="nickCom">
+<view class="nick">用户昵称</view>
+<view class="con">帖子：现在基本财政部门续保胜多负少会更好看合适的疯狂更何况见过好几个可接受对方会卡顿</view>
+<view class="myCom">我的评论：这一段1是我的评论</view>
+</view>
+</view>
+
+<view class="mycomment clear">
+<image class="com-img" src="../images/headimg.jpg"></image>
+<view class="nickCom">
+<view class="nick">用户昵称</view>
+<view class="con">帖子：现在基本财政部门续保胜多负少会更好看合适的疯狂更何况见过好几个可接受对方会卡顿</view>
+<view class="myCom">我的评论：这一段1是我的评论</view>
+</view>
+</view>
+
+
+
+<view class="mycomment clear">
+<image class="com-img" src="../images/headimg.jpg"></image>
+<view class="nickCom">
+<view class="nick">用户昵称</view>
+<view class="con">帖子：现在基本财政部门续保胜多负少会更好看合适的疯狂更何况见过好几个可接受对方会卡顿</view>
+<view class="myCom">我的评论：这一段1是我的评论</view>
+</view>
+</view>
+
+
+
+<view class="mycomment clear">
+<image class="com-img" src="../images/headimg.jpg"></image>
+<view class="nickCom">
+<view class="nick">用户昵称</view>
+<view class="con">帖子：现在基本财政部门续保胜多负少会更好看合适的疯狂更何况见过好几个可接受对方会卡顿</view>
+<view class="myCom">我的评论：这一段1是我的评论</view>
+</view>
+</view>
+

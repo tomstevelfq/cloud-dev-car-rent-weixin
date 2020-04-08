@@ -1,0 +1,14 @@
+<!--miniprogram/pages/bonus/bonus.wxml-->
+<view class="buy">已预定车辆</view>
+
+<view wx:for='{{list}}' wx:for-index='index' wx:for-item='item'>
+	<view class="pro">
+		<view class="produ clear" id="{{index}}">
+			<image class="shop" id="{{index}}" src="{{img}}" bindtap="product"></image>
+			<view class="title">{{item.title}}</view>
+      <view class="money">收益：{{item.price}}</view>
+		</view>
+	</view>
+</view>
+
+<view class="money_all">总收益：{{bonus}}</view>

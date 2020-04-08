@@ -1,0 +1,18 @@
+<!--miniprogram/pages/relateMe/relate.wxml-->
+<view class="com-whole" wx:for='{{reply}}' wx:for-index='index' wx:for-item='item'>
+	<view class="comm" id="{{index}}">
+		<!-- <view class="comment">
+			<view class="img-name clear">
+				<image class="com-img" src="{{item.headimg}}"></image>
+				<view class="name">{{item.nickName}}</view>
+				<view class="com-time">2019-02-04 17:38</view>
+			</view>
+		</view> -->
+		<view class="com-content">商品名称：{{item.title}}</view>
+		<view class="com-content">商品id：{{item.proId}}</view>
+    <view class="myreply">买家评论：{{item.content}}</view>
+		<input class="_reply" placeholder="请回复" type="text" bindinput="inreply"/>
+    <view class="reply" id="{{item._id}}" bindtap="reply">回复</view>
+		<view class="com-line"></view>
+	</view>
+</view>

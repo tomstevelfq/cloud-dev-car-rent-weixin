@@ -1,0 +1,8 @@
+<!--miniprogram/pages/upMes/upMes.wxml-->
+<view class="con clear">
+<view class="name">姓名：</view><input class="inp" placeholder="输入姓名" bindinput="name"></input>
+</view>
+<view class="con clear">
+<view class="name">手机号：</view><input class="inp" placeholder="输入电话号码" bindinput="phoneNumber"></input>
+</view>
+<button class="btn" bindtap="upMes">上传</button>

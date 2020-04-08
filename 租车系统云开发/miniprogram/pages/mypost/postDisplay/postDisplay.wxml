@@ -1,0 +1,45 @@
+<!--miniprogram/pages/mypost/postDisplay/postDisplay.wxml-->
+<view>
+	<view class="title">{{title}}</view>
+	<rich-text class='html' nodes="{{content}}"></rich-text>
+</view>
+
+<view class="com-style">评论</view>
+
+
+<view class="com-whole" wx:for='{{comments}}' wx:for-index='index' wx:for-item='item'>
+	<view class="comm" id="{{index}}" bindtap="tapComment">
+		<view class="comment">
+			<view class="img-name clear">
+				<image class="com-img" src="{{item.headimg}}"></image>
+				<view class="name">{{item.nickName}}</view>
+				<view class="com-time">2019-02-04 17:38</view>
+			</view>
+		</view>
+		<view class="com-content">{{item.content}}</view>
+		<view class="com-line"></view>
+	</view>
+
+	<view wx:for='{{item.child}}' wx:for-index='index' wx:for-item='ite'>
+		<view class="child">
+			<view class="cimg-name clear">
+				<image class="com-img" src="{{ite.headimg}}"></image>
+				<view class="name">{{ite.nickName}}</view>
+				<view class="com-time">2019-02-04 17:38</view>
+			</view>
+
+			<view class="ccom-content">{{ite.content}}</view>
+			<view class="com-line"></view>
+		</view>
+	</view>
+</view>
+
+<view class="blo" bindtap="blo"></view>
+
+
+<view class="container">
+	<view class="release">
+		<textarea class="text" placeholder-class="releaseInput" value="{{Content}}" fixed="true" maxlength="120" show-confirm-bar="{{false}}" cursor-spacing="15" auto-height="true" focus="{{focus}}" placeholder="评论" value="{{Content}}" bindinput="contentInput"></textarea>
+		<view class="submit" bindtap="comment">发布</view>
+	</view>
+</view>

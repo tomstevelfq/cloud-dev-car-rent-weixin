@@ -1,0 +1,27 @@
+<!--miniprogram/pages/uploadCar/uploadCar.wxml-->
+<view class="con clear">
+<view class="name">编号</view>
+<input class="inp" bindinput="num"></input>
+</view>
+
+<view class="con clear">
+<view class="name">标题</view>
+<input class="inp" bindinput="title"></input>
+</view>
+
+<view class="con clear">
+<view class="name">价格/天</view>
+<input class="inp" bindinput="price"></input>
+</view>
+
+
+<view class="con clear">
+<view class="name-pic">图片</view>
+<view wx:for='{{imgs}}' wx:for-index='index' wx:for-item='item'>
+<image class="add-img" src="{{item}}"></image>
+</view>
+<image class="add-img" src="../images/ad.png" bindtap="upPic"></image>
+</view>
+
+
+<button class="btn" bindtap="btn">上传</button>

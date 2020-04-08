@@ -1,0 +1,132 @@
+/* miniprogram/pages/proComment/proComment.wxss */
+.title{
+  font-size:40rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+  font-weight: bold;
+}
+
+.blo{
+  height:400rpx;
+}
+
+.clear:after{
+  content:'\200B';
+  clear:both;
+  display:block;
+  height:0;
+}
+
+.com-img{
+  float:left;
+  width:80rpx;
+  height:80rpx;
+  border-radius: 50rpx;
+  overflow: hidden;
+}
+
+.com-content{
+  margin-top:15rpx;
+  font-size:38rpx;
+  margin-left:20rpx;
+}
+
+.comm{
+  background-color: bisque;
+}
+
+.com-whole{
+  margin-bottom: 20rpx;
+}
+
+.com-style{
+  text-align: center;
+  font-size: 50rpx;
+  font-weight: bolder;
+  padding:10rpx;
+  color:gray;
+  padding-bottom:20rpx;
+  border-bottom:1px solid rgb(214, 214, 214);
+}
+
+.com-line{
+  height:20rpx;
+  border-bottom:1rpx solid rgb(220, 220, 220);
+}
+
+.com-time{
+  font-size:20rpx;
+  color:rgba(128, 128, 128, 0.445);
+  float:right;
+  margin-top:20rpx;
+}
+
+
+.name{
+  float:left;
+  margin-left:20rpx;
+  margin-top:18rpx;
+  color: rgb(250, 147, 30);
+  font-size:27rpx;
+}
+
+.comment{
+  background-color: bisque;
+  padding:10rpx;
+}
+
+.cimg-name{
+  margin-left:60rpx;
+}
+
+.ccom-content{
+  margin-left:80rpx;
+  margin-top:15rpx;
+  font-size:28rpx;
+}
+
+.child{
+  padding:5rpx;
+  background-color: rgb(255, 244, 227);
+}
+
+/* miniprogram/pages/comment/comment.wxss */
+.release{
+  font-size: 14px;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0 5px 15px;
+}
+.releaseInput{
+  color: #ccc;
+}
+.release .text{
+  width: 302px;
+  min-height: 17px;
+  max-height: 51px;
+  line-height: 17px;
+  border-width: 7px 10px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #fff;
+}
+.release .submit{
+  color: #6c0;
+  width: 58px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.myreply{
+  color:rgb(192, 192, 192);
+  margin:8rpx 20rpx;
+  font-size:25rpx;
+}

@@ -1,0 +1,286 @@
+/* miniprogram/pages/product/product.wxss */
+
+page{
+  background-color:rgb(231, 231, 231);
+}
+
+.blo{
+  height:200rpx;
+}
+
+.shop{
+  padding:20rpx;
+}
+
+.clear:after{
+  content:'\200B';
+  clear:both;
+  display:block;
+  height:0;
+}
+
+.headimg{
+  width:80rpx;
+  height:80rpx;
+  border-radius: 50rpx;
+  overflow: hidden;
+  float:left;
+}
+
+.shopName{
+  color:rgba(0, 132, 255, 0.534);
+  float:left;
+  font-size:40rpx;
+  font-weight:bolder;
+  margin-top:10rpx;
+  margin-left:10rpx;
+}
+
+.head{
+  background-color: white;
+  padding:20rpx;
+}
+
+.block{
+  height:10rpx;
+}
+
+.u-wrp-bnr {
+  width: 750rpx;
+  height:550rpx;
+  display: block;
+  position: relative;
+  background: #f0f0f0;
+}
+.u-img-slide {
+  width: 100%;
+  height: inherit;
+}
+
+.lunbo{
+  position: relative;
+}
+
+.num{
+  position: absolute;
+  background-color: rgba(58, 58, 58, 0.671);
+  color:white;
+  width:65rpx;
+  text-align: center;
+  font-size:25rpx;
+  bottom:10rpx;
+  right:10rpx;
+}
+
+.titleImg{
+  width:40rpx;
+  height:40rpx;
+  float:left;
+  margin-right:10rpx;
+  margin-top:10rpx;
+  margin-left:10rpx;
+}
+
+.titleText{
+  float:left;
+  max-width: 690rpx;
+  font-weight:bolder;
+  letter-spacing: 2rpx;
+}
+
+.block1{
+  height:15rpx;
+  background-color: white;
+}
+
+.title{
+  background-color: white;
+  padding-bottom:15rpx;
+}
+
+
+.col{
+  float:left;
+  margin-left:40rpx;
+}
+
+.com{
+  float:right;
+  margin-right:40rpx;
+}
+
+.coImg{
+  float:left;
+  width:30rpx;
+  height:30rpx;
+}
+
+.coText{
+  float:left;
+  margin-left:15rpx;
+}
+
+.col-com{
+  background-color: white;
+  padding-bottom:20rpx;
+  font-size: 25rpx;
+  color:rgba(128, 128, 128, 0.555);
+}
+
+.serv{
+  margin-top:15rpx;
+  padding:5rpx;
+  padding-bottom:15rpx;
+  background-color: white;
+  font-size:27rpx;
+}
+
+.servName{
+  float:left;
+  color:rgba(128, 128, 128, 0.527);
+  margin-left:20rpx;
+  width:160rpx;
+}
+
+.servCon{
+  float:left;
+  margin-left:40rpx;
+}
+
+.shopserv{
+  margin-top:15rpx;
+  margin-bottom:15rpx;
+}
+
+.id{
+  margin-top:15rpx;
+  margin-bottom:15rpx;
+}
+
+.yudingImg{
+  width:27rpx;
+  height:27rpx;
+  float:left;
+  margin-left:40rpx;
+}
+
+.com-mes{
+  background-color: white;
+  padding:15rpx;
+  margin-top:20rpx;
+}
+
+.comTag{
+  float:left;
+  text-align: center;
+  margin-left:180rpx;
+  padding:10rpx;
+  color:rgb(250, 147, 30);
+  border-bottom:2px solid rgb(250, 147, 30);
+}
+
+.mesTag{
+  float:right;
+  text-align: center;
+  margin-right:200rpx;
+  padding:10rpx;
+}
+
+.com-img{
+  float:left;
+  width:80rpx;
+  height:80rpx;
+  border-radius: 50rpx;
+  overflow: hidden;
+}
+
+.name{
+  float:left;
+  margin-left:20rpx;
+  margin-top:18rpx;
+  color: rgb(250, 147, 30);
+  font-size:27rpx;
+}
+
+.com-time{
+  font-size:20rpx;
+  color:rgba(128, 128, 128, 0.445);
+  float:right;
+  margin-top:20rpx;
+}
+
+.com-content{
+  margin-top:15rpx;
+  font-size:28rpx;
+}
+
+.com-img-con{
+  width:500rpx;
+  height:500rpx;
+}
+
+.com-line{
+  height:20rpx;
+  border-bottom:1rpx solid rgb(220, 220, 220);
+}
+
+.yudingbtn{
+  color:rgba(0, 140, 255, 0.897);
+  float:left;
+  margin-left:50rpx;
+  background-color: honeydew;
+  border:1rpx solid gainsboro;
+  padding:5rpx 10rpx;
+}
+
+/* miniprogram/pages/comment/comment.wxss */
+.release{
+  font-size: 14px;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0 5px 15px;
+}
+.releaseInput{
+  color: #ccc;
+}
+.release .text{
+  width: 302px;
+  min-height: 17px;
+  max-height: 51px;
+  line-height: 17px;
+  border-width: 7px 10px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #fff;
+}
+.release .submit{
+  color: #6c0;
+  width: 58px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+
+
+.cimg-name{
+  margin-left:60rpx;
+}
+
+.ccom-content{
+  margin-left:80rpx;
+  margin-top:15rpx;
+  font-size:28rpx;
+  color:gray;
+}
+
+.child{
+  padding:5rpx;
+  background-color: rgb(255, 244, 227);
+}

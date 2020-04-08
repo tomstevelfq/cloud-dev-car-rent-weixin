@@ -1,0 +1,17 @@
+<!--miniprogram/pages/carManager/carManager.wxml-->
+<view class="clear">
+	<input class="inp" placeholder="搜索商品" bindinput="search"></input>
+	<view class="sbtn" style="width:100rpx;" bindtap="staSear">搜索</view>
+</view>
+
+<view wx:for='{{rlist}}' wx:for-index='index' wx:for-item='item'>
+<view class="pro">
+	<view class="produ clear">
+		<image class="shop" src="{{item.fileId}}" id="{{index}}"  bindtap="product"></image>
+		<view class="title">{{item.title}}</view>
+		<image class="img" id="{{index}}" src="../images/sc.png" bindtap="del"></image>
+	</view>
+</view>
+</view>
+
+<image bindtap="upCar" class="add-img" src="../images/add.png"></image>

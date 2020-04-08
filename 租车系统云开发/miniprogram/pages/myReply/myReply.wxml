@@ -1,0 +1,15 @@
+<!--miniprogram/pages/myReply/myReply.wxml-->
+<view class="com-whole" wx:for='{{reply}}' wx:for-index='index' wx:for-item='item'>
+	<view class="comm" id="{{index}}" bindtap="tapComment">
+		<view class="comment">
+			<view class="img-name clear">
+				<image class="com-img" src="{{item.headimg}}"></image>
+				<view class="name">{{item.nickName}}</view>
+				<view class="com-time">2019-02-04 17:38</view>
+			</view>
+		</view>
+		<view class="com-content">{{item.title}}</view>
+    <view class="myreply">我的回复：{{item.content}}</view>
+		<view class="com-line"></view>
+	</view>
+</view>

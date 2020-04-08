@@ -1,0 +1,130 @@
+/* miniprogram/pages/postpage/postpage.wxss */
+.clear:after{
+  content:'\200B';
+  clear:both;
+  display:block;
+  height:0;
+}
+
+.head{
+  padding:20rpx;
+}
+
+.content{
+  margin-bottom:40rpx;
+}
+
+.zan{
+  border:1px solid gray;
+  display:inline-block;
+  border-radius:30rpx;
+  padding:8rpx 25rpx;
+  margin-top:30rpx;
+}
+
+.test{
+  text-align: center;
+}
+
+.zanimg{
+  width:30rpx;
+  height:30rpx;
+  float:left;
+}
+
+.num{
+  float:left;
+  font-size:30rpx;
+  margin-left:10rpx;
+}
+
+.lineblock{
+  height:20rpx;
+  background-color: rgba(220, 220, 220, 0.486);
+}
+
+.comment{
+  padding:20rpx;
+}
+
+.title{
+
+}
+
+.line-com{
+  border-top:1px solid rgba(128, 128, 128, 0.507);
+  margin-top:20rpx;
+}
+
+.title{
+  font-size:40rpx;
+  font-weight:bolder;
+  margin-bottom:20rpx;
+}
+
+.headimg-com{
+  width:80rpx;
+  height:80rpx;
+  float:left;
+  margin-right:10rpx;
+}
+
+.nickName{
+  font-size:35rpx;
+  font-weight:bolder;
+  margin-bottom:10rpx;
+}
+
+.com-con{
+  margin-top:20rpx;
+}
+
+.line-in-com{
+  border-top:1px solid rgba(128, 128, 128, 0.356);
+  margin-bottom:20rpx;
+}
+
+.conText{
+  float:left;
+  max-width: 620rpx;
+}
+
+.conTime{
+  font-size:25rpx;
+  color:rgba(105, 105, 105, 0.582);
+  margin-top:15rpx;
+}
+
+.imgs{
+  width:233rpx;
+  height:233rpx;
+  float:left;
+  margin-right:4rpx;
+  margin-top:4rpx;
+}
+
+.line{
+  border-top:1px solid rgba(128, 128, 128, 0.507);
+  margin-top:40rpx;
+}
+
+.page{
+  padding:20rpx;
+}
+
+.headimg{
+  float:left;
+  width:80rpx;
+  height:80rpx;
+}
+
+.nickTime{
+float:left;
+margin-left:10rpx;
+}
+
+.time{
+  color:grey;
+  font-size:25rpx;
+  margin-top:10rpx;
+}

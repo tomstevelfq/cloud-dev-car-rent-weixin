@@ -1,0 +1,10 @@
+<!--miniprogram/pages/myCollect/myCollect.wxml-->
+<view wx:for='{{list}}' wx:for-index='index' wx:for-item='item'>
+	<view class="pro">
+		<view class="produ clear" id="{{index}}">
+			<image class="shop" id="{{index}}" src="{{item.img}}" bindtap="product"></image>
+			<view class="title">{{item.title}}</view>
+      <image class="img" id="{{index}}" src="../images/sc.png" bindtap="del"></image>
+		</view>
+	</view>
+</view>

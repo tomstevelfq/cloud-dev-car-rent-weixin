@@ -1,0 +1,39 @@
+/* miniprogram/pages/uploadCar/uploadCar.wxss */
+.clear:after{
+  content:'\200B';
+  clear:both;
+  display:block;
+  height:0;
+}
+
+.name{
+  float:left;
+  margin-left:20rpx;
+  margin-right:20rpx;
+}
+
+.inp{
+  float:left;
+}
+
+.con{
+  margin-top: 20rpx;
+}
+
+.btn{
+  background-color: bisque;
+  margin-top:40rpx;
+}
+
+.add-img{
+  width:120rpx;
+  height:120rpx;
+  float:left;
+}
+
+.name-pic{
+  float:left;
+  margin-left:20rpx;
+  margin-right:20rpx;
+  margin-top:40rpx;
+}

@@ -1,0 +1,28 @@
+<!--miniprogram/pages/reShop/reShop.wxml-->
+<view class="con clear">
+<view class="name">名称</view>
+<input class="inp" bindinput="name"></input>
+</view>
+
+<view class="con clear">
+<view class="name">联系方式</view>
+<input class="inp" bindinput="phone"></input>
+</view>
+
+<view class="con clear">
+<view class="name">联系地址</view>
+<input class="inp" bindinput="addr"></input>
+</view>
+
+<view class="con clear">
+<view class="name">介绍</view>
+<input class="inp" bindinput="intro"></input>
+</view>
+
+
+<view class="con clear">
+<view class="name">营业时间</view>
+<input class="inp" bindinput="time"></input>
+</view>
+
+<button class="btn" bindtap="btn">上传</button>

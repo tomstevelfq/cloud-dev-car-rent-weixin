@@ -1,0 +1,40 @@
+/* miniprogram/pages/mycomment/mycomment.wxss */
+.mycomment{
+  padding:20rpx;
+}
+
+.com-img{
+  width:80rpx;
+  height:80rpx;
+  float:left;
+  border-radius: 50rpx;
+  overflow: hidden;
+}
+
+.clear:after{
+  content:'\200B';
+  clear:both;
+  display:block;
+  height:0;
+}
+
+.nickCom{
+  float:left;
+  max-width: 600rpx;
+  margin-left:20rpx;
+}
+
+.nick{
+  color:rgba(0, 153, 255, 0.699);
+  margin-top:20rpx;
+  margin-bottom:20rpx;
+}
+
+.myCom{
+  font-size:27rpx;
+  color:grey;
+  background-color: rgba(220, 220, 220, 0.479);
+  padding:5rpx 10rpx;
+  border-radius: 6rpx;
+  margin-top:15rpx;
+}

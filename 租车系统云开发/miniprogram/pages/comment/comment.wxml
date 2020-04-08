@@ -1,0 +1,19 @@
+<!--miniprogram/pages/comment/comment.wxml-->
+<view class="container">
+  <view class="release">
+    <textarea 
+      class="text"
+      placeholder-class="releaseInput"
+      value="{{content}}"
+      fixed="true" 
+      maxlength="120" 
+      show-confirm-bar="{{false}}" 
+      cursor-spacing="15" 
+      auto-height="true" 
+      focus="{{focus}}"
+      placeholder="回复 {{user.name}}"
+      value="{{content}}"
+      bindinput="contentInput"></textarea>
+    <view class="submit" bindtap="comment">发送</view>
+  </view>
+</view>
